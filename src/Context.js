@@ -16,6 +16,12 @@ handleDetail = ()=>{
 addCart = ()=>{
     console.log("Helllo from add to carts")
 }
+
+tester = ()=>{
+    console.log("state products", this.state.product[0].inCart);
+    console.log("Data products", storeProducts[0].inCart)
+    
+}
     render() {
         return (
             <ProductContext.Provider value={{
